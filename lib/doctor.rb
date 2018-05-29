@@ -18,6 +18,6 @@ class Doctor
   end   
   
   def appointments 
-    
-  
+    self.appointments.all.select {||}
+  end 
 end   
