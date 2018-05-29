@@ -18,4 +18,5 @@ class Artist
   end  
   
   def songs 
+    self.
 end   
