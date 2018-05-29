@@ -5,7 +5,7 @@ class Song
   
   @@all = [] 
   
-  def initialize(name, song, genre)
+  def initialize(song_name, artist, genre)
     binding.pry
     @name = name 
     @artist = artist 
