@@ -18,6 +18,6 @@ class Artist
   end  
   
   def songs 
-    self.songs.collect {|song| song.artist}
+    Song.all.collect {|song| song.artist}
   end   
 end   
