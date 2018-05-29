@@ -16,6 +16,9 @@ class Artist
     @@all << self 
   end   
   
+  def self.songs 
+    @songs 
+  
   def new_song(song_name, genre)
     this_song = Song.new(name, song_name, genre)
     @@all << this_song 
