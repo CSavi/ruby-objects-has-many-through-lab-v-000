@@ -16,7 +16,7 @@ class Appointment
   end   
   
   def date 
-    return " "
+    return String
   end   
   
   def self.all
