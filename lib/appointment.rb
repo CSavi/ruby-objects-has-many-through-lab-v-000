@@ -15,10 +15,6 @@ class Appointment
    # binding.pry
   end   
   
-  def date 
-    return String
-  end   
-  
   def self.all
     @@all
   end   
