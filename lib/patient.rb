@@ -18,6 +18,6 @@ class Patient
   end 
   
   def appointments 
-    Appointment.collect {|appointment| appointment.patient}
+    self.appointment.collect {|appointment| appointment.patient}
   end   
 end   
