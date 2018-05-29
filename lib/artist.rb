@@ -22,6 +22,6 @@ class Artist
   end  
   
   def genres 
-    Genre.all.each {|genre| genre.artist == self}
+    Song.all.each {|song| song.genre}
   end   
 end   
