@@ -18,6 +18,6 @@ class Artist
   end  
   
   def songs 
-    Song.all.collect {|song| song.artist == self}
+    Song.all.each {|song| song.artist == self}
   end   
 end   
