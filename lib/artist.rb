@@ -18,5 +18,5 @@ class Artist
   end  
   
   def songs 
-    self.
+    self.songs.collect 
 end   
