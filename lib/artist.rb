@@ -19,5 +19,8 @@ class Artist
   
   def songs 
     Song.all.each {|song| song.artist == self}
-  end   
+  end  
+  
+  def genres 
+    
 end   
